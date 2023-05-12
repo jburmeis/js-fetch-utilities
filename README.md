@@ -124,6 +124,7 @@ In most cases you should only represent four states in an `AsyncResource`:
 | Success | false | present | null
 | Error | false | null | present
 | (Updating data) | true | present | null
+
 For some applications you might want the dual 'updating' state, i.e. have both the `data` and `pending` property set. An application might hold on to the current data of a resource while fetching for an update without clearing the old data until the updated data is available. 
 It is recommended to use the following creator functions to create valid instances:
 
