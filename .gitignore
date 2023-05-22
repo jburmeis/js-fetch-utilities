@@ -7,4 +7,5 @@
 
 # misc
 .DS_Store
+.npmrc
 package-lock.json
