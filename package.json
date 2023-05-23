@@ -18,6 +18,7 @@
   "files": [
     "cjs/",
     "esm/",
+    "src/",
     "package.json"
   ],
   "scripts": {
